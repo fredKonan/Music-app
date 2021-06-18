@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classic Music Player</title>
+    
+    <!-- Load FontAwesome icons -->
+   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+   <!-- Load style sheet -->
+   <link rel="stylesheet" href="/css/normalize.css">
+   <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+  <header>
+    <div class="header">
+      <label for="search-music">
+        <h1>Search</h1>
+      </label>
+      <form action="/https://www.youtube.com">
+        <input type="search"id="search-music" placeholder="Artists, Songs, Lyrics, and More . . ." name="Search">
+        <button><i class="fa fa-search"></i> </button>
+      </form>
+      
+    </div>
+  </header>
+  <main>
+    <div class="container">
+      <h3>Browse categories</h3>
+      <div class="music-card">
+        <div class="row1-colum1">
+          <a href="">
+            <img src="/" alt="">
+            <caption>Spatial Audio</caption>
+          </a>
+        </div>
+        <div class="row2-colum1">
+          <a href="">
+            <img src="" alt="">
+            <caption>Pop</caption>
+          </a>
+        </div>
+        <div class="row3-colum1">
+           <a href="">
+            <img src="" alt="">
+            <caption>Hip-Hop</caption>
+           </a>
+        </div>
+        <div class="row4-colum1">
+         <a href="https://www.youtube.com/watch?v=h_D3VFfhvs4">
+           <img src="" alt="Country Music">
+           <caption>Country</caption>
+         </a>
+        </div>
+        <div class="row5-colum1"></div>
+        <div class="row1-colum2"></div>
+        <div class="row2-colum2"></div>
+        <div class="row3-colum2"></div>
+        <div class="row4-colum2"></div>
+        <div class="row5-colum3"></div>
+      </div>
+    </div>
+  </main>
+    
+    
+    
+    <footer>
+          <div class="footer-menu">
+              <div class="listen-now-buttons" onclick="listenNowButtons()">
+                <i class="fa fa-play-circle fa-1x">Listen Now</i>
+              </div>
+        
+              <div class="browse-buttons " onclick="browseButtons()">
+                <i class="fa fa-bullseye">Browse</i>
+              </div>
+              <div class="library-buttons" onclick="libraryButtons()">
+                <i class="fa fa-database fa-1x">Library</i>
+              </div>
+              <div class="search-bar" onclick="searchBar()"><i class="fa fa-search fa-1x">Search</i> </div>
+         </div>
+          </div>
+    </footer>
+
+    <!-- Load javascript file -->
+    <link rel="stylesheet" href="/main.js">
+</body>
+</html>
