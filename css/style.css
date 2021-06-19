@@ -1,0 +1,162 @@
+html{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 62.5;
+}
+
+.player{
+    display: grid;
+    grid-template-rows: 20% 70% 10%;
+    row-gap: 10px;
+    width: 45rem;
+    height: 45rem;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    background: #ecf0f3;
+    box-shadow: 2.8rem 2.8rem 3rem #cbced1 2.8rem 2.8rem 3rem white;
+    display: grid;
+    grid-template-columns:2;
+    padding: 2rem 0 0.7rem ;
+    margin: .5rem;
+    justify-content: center;
+    margin-inline: auto;
+}
+.head{
+    padding-left: 2.9rem;
+}
+input{
+    height: 35px;
+    width: 420px;
+    border-radius: 10px;
+    border: #ecf0f3;
+    box-shadow: none;
+}
+input:hover{
+    background-color:#fff;
+    border: solid #fff;
+    box-shadow: inset 6px 6px 6px #ecf0f3;
+}
+header{
+   grid-row-start:1;
+   grid-row-end: 1;
+   box-sizing: border-box;
+}
+.container{
+    grid-row-start: 2;
+    grid-row-end: 2;
+    box-sizing: border-box;
+}
+
+footer{
+    grid-row-start: 3;
+    grid-row-end: 3;
+    box-sizing: border-box;
+}
+
+.container{
+    display: block;
+    margin: 2rem;
+    box-sizing: border-box;
+}
+h3{
+    grid-row-start: 1;
+    grid-row-end: 1;
+    padding-left: 2rem;
+}
+.music-card{
+    grid-row-start: 2;
+    grid-row-end: 2;
+    box-sizing: border-box;
+}
+    
+.music-card{
+  display: grid;
+  grid-template-columns: 160px 160px 160px ;
+  grid-template-rows: 120px 120px 120px ; 
+  column-gap: 10px;
+  row-gap: 15px;
+  overflow-y: scroll;
+  overflow-x: scroll;
+  border-radius: 2PX;
+  overflow: scroll;
+}
+
+    
+   
+.footer-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    margin-bottom: 0;
+    padding-bottom: 0 0.5rem;
+}
+.item1
+{
+  background-color: goldenrod;  
+}
+.item2{
+    background-color: dodgerblue;
+}
+.item3{
+    background-color:tomato;
+}
+.item4{
+    background-color:purple;
+}
+.item5{
+    background-color: burlywood;
+}
+.item6{
+    background-color: green;
+}
+.item7{
+    background-color: orange;
+}
+.item8{
+    background-color: deeppink;
+}
+.item9{
+    background-color: olive;
+}
+
+.music-card a{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    display: block;
+}
+.nav:hover
+{
+animation-name: genial;
+animation-play-state: running;
+transition: all 0.5s linear 0s;
+animation: rotate   1s  linear  infinite   0.1s;
+}
+
+/*h3{
+ animation-duration: 10s;
+  animation-name: glissement;
+  animation-iteration-count: infinite
+}*/
+
+
+@keyframes glissement {
+  from {
+    margin-left: 100%;
+    width: 200%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+    
+
+

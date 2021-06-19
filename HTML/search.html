@@ -15,74 +15,109 @@
 </head>
 
 <body>
-  <header>
-    <div class="header">
-      <label for="search-music">
-        <h1>Search</h1>
-      </label>
-      <form action="/https://www.youtube.com">
-        <input type="search"id="search-music" placeholder="Artists, Songs, Lyrics, and More . . ." name="Search">
-        <button><i class="fa fa-search"></i> </button>
-      </form>
-      
-    </div>
-  </header>
-  <main>
-    <div class="container">
-      <h3>Browse categories</h3>
-      <div class="music-card">
-        <div class="row1-colum1">
-          <a href="">
-            <img src="/" alt="">
-            <caption>Spatial Audio</caption>
-          </a>
-        </div>
-        <div class="row2-colum1">
-          <a href="">
-            <img src="" alt="">
-            <caption>Pop</caption>
-          </a>
-        </div>
-        <div class="row3-colum1">
-           <a href="">
-            <img src="" alt="">
-            <caption>Hip-Hop</caption>
-           </a>
-        </div>
-        <div class="row4-colum1">
-         <a href="https://www.youtube.com/watch?v=h_D3VFfhvs4">
-           <img src="" alt="Country Music">
-           <caption>Country</caption>
-         </a>
-        </div>
-        <div class="row5-colum1"></div>
-        <div class="row1-colum2"></div>
-        <div class="row2-colum2"></div>
-        <div class="row3-colum2"></div>
-        <div class="row4-colum2"></div>
-        <div class="row5-colum3"></div>
+  <div class="player">
+    <header>
+      <div class="head">
+        <label for="search-music">
+          <h1>Search</h1>
+        </label>
+        <form action="/https://www.youtube.com">
+          <input type="search"id="search-music" placeholder="Artists, Songs, Lyrics, and More . . ." name="Search" spellcheck="true">
+          <button><i class="fa fa-search"></i> </button>
+        </form>
       </div>
-    </div>
-  </main>
+    </header>
     
     
-    
-    <footer>
-          <div class="footer-menu">
-              <div class="listen-now-buttons" onclick="listenNowButtons()">
-                <i class="fa fa-play-circle fa-1x">Listen Now</i>
-              </div>
-        
-              <div class="browse-buttons " onclick="browseButtons()">
-                <i class="fa fa-bullseye">Browse</i>
-              </div>
-              <div class="library-buttons" onclick="libraryButtons()">
-                <i class="fa fa-database fa-1x">Library</i>
-              </div>
-              <div class="search-bar" onclick="searchBar()"><i class="fa fa-search fa-1x">Search</i> </div>
-         </div>
+    <main>
+      <div class="container">
+        <h3>Browse <strong>Anonymat</strong> Music Pod categories </h3>
+         <div class="music-card">
+          <div class="item1">
+             <a href="https://www.youtube.com/watch?v=h_D3VFfhvs4">R&B
+              <img src="" alt="">
+            </a>
           </div>
-    </footer>
+          <div class="item2">
+            <a href="https://www.youtube.com/watch?v=h_D3VFfhvs4">
+              <img src="" alt="">
+              <caption>Pop</caption>
+            </a>
+          </div>
+          <div class="item3">
+              <a href="https://www.youtube.com/watch?v=h_D3VFfhvs4">
+              <img src="" alt="">
+              <caption>Spacial</caption>
+            </a>
+          </div>
+          <div class="item4">
+           <a href="https://www.youtube.com/watch?v=h_D3VFfhvs4">
+             <img src="" alt="">
+             <caption>Country</caption>
+           </a>
+          </div>
+          <div class="item5">
+            <a href="https://www.youtube.com/watch?v=h_D3VFfhvs4">
+              <img src="" alt="">
+              <caption>Reggae</caption>
+            </a>
+          </div>
+          <div class="item6">
+             <a href="https://www.youtube.com/watch?v=h_D3VFfhvs4">
+              <img src="" alt="">Zook
+            </a>
+          </div>
+          
+          <div class="item7">
+             <a href="https://www.youtube.com/watch?v=h_D3VFfhvs4">
+              <img src="" alt="">
+              <caption>Zouglou</caption>
+            </a>
+          </div>
+          <div class="item8">
+             <a href="https://www.youtube.com/watch?v=h_D3VFfhvs4">
+              <img src="" alt="">
+              <caption>Roumba</caption>
+            </a>
+          </div>
+          <div class="item9">
+             <a href="https://www.youtube.com/watch?v=h_D3VFfhvs4">
+              <img src="" alt="">
+              <caption>Techno</caption>
+            </a>
+          </div>
+        </div>
+      </div>
+    </main>
+
+
+      <footer>
+            <div class="footer-menu">
+                <div class="listen-now-buttons nav" onclick="listenNowButtons()">
+                  <a href="/HTML/listen.html">
+                    <i class="fa fa-play-circle fa-1x">Listen Now</i>
+                  </a>
+                </div>
+    
+                <div class="browse-buttons nav " onclick="browseButtons()">
+                  <a href="/HTML/browser.html">
+                    <i class="fa fa-bullseye">Browse</i>
+                  </a>
+                </div>
+                <div class="library-buttons nav" onclick="libraryButtons()">
+                  <a href="/HTML/library.html">
+                    <i class="fa fa-database fa-1x">Library</i>
+                  </a>
+                </div>
+                <div class="search-bar nav" onclick="searchBar()">
+                  <a href="/HTML/search.html">
+                    <i class="fa fa-search fa-1x">Search</i>
+                  </a>
+                </div>
+           </div>
+            </div>
+      </footer>
+  </div>
 
     <!-- Load javascript file -->
     <link rel="stylesheet" href="/main.js">
