@@ -3,7 +3,7 @@ html{
     font-size: 62.5;
 }
 
-.player{
+.player2{
     display: grid;
     grid-template-rows: 20% 70% 10%;
     row-gap: 10px;

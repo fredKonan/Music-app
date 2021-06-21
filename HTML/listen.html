@@ -37,25 +37,26 @@
           <input type="range" min="1" max="99" class="volume_slider" onchange="setVolume()">
           <i class="fa fa-volume-up"></i>
       </div>
-       <footer>
+
+      <footer>
             <div class="footer-menu">
-                <div class="listen-now-buttons" onclick="listenNowButtons()">
+                <div class="listen-now-buttons nav" onclick="listenNowButtons()">
                   <a href="/HTML/listen.html">
                     <i class="fa fa-play-circle fa-1x">Listen Now</i>
                   </a>
                 </div>
     
-                <div class="browse-buttons " onclick="browseButtons()">
+                <div class="browse-buttons nav " onclick="browseButtons()">
                   <a href="/HTML/browser.html">
                     <i class="fa fa-bullseye">Browse</i>
                   </a>
                 </div>
-                <div class="library-buttons" onclick="libraryButtons()">
+                <div class="library-buttons nav" onclick="libraryButtons()">
                   <a href="/HTML/library.html">
                     <i class="fa fa-database fa-1x">Library</i>
                   </a>
                 </div>
-                <div class="search-bar" onclick="searchBar()">
+                <div class="search-bar nav" onclick="searchBar()">
                   <a href="/HTML/search.html">
                     <i class="fa fa-search fa-1x">Search</i>
                   </a>
@@ -63,6 +64,7 @@
            </div>
             </div>
       </footer>
+       
 
     <!-- Load javascript file -->
     <link rel="stylesheet" href="/main.js">
