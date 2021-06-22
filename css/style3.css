@@ -1,0 +1,88 @@
+library {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #ecf0f3;
+    width: 45rem;
+    height: 48rem;
+}
+
+.footer-menu-listen{
+    padding-top:2rem;
+    
+}
+.footer-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    
+    padding-bottom:1rem;
+}
+.nav:hover,
+.nav:focus{
+    transform: scale(1.6);
+    
+}
+
+.fa-icons, .fa-stamp, .fa-compact-disc,.fa-download, .fa-music{
+    color:red;
+}
+span{
+    color: black;
+    padding-left: 2rem;
+    font-weight: 100;
+    font-size: 25px;
+}
+
+table {
+  border-collapse:collapse;
+  width: 100vw;
+  margin: 2rem;
+  
+}
+tr { 
+  border: solid grey;
+  border-width:0.5px 0;
+  
+  
+  
+}
+td{
+    padding: 1rem;
+    margin: 1rem;  
+}
+
+.title{
+    margin: 2rem;
+}
+.recently-added{
+    margin: 2rem;
+}
+.add{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    
+    column-gap: 20px;
+}
+.add1{
+    background-image: url(/media/pexels-andrea-piacquadio-761963.jpg);
+}
+.add2{
+    background-image: url(/media/pexels-eric-esma-894156.jpg);
+}
+.add3{
+    background-image: url(/media/pexels-mali-maeder-802195.jpg);
+}
+
+.add1, .add2, .add3{
+    height: 100px;
+    width: 200px;
+    align-items: inline-block;
+    color: white; 
+    font-weight: bolder;
+}
+.footer{
+    width: 100vw;
+    height: 3rem;
+    background-color: grey;
+    padding-top:0;
+}

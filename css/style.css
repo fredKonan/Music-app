@@ -165,13 +165,7 @@ animation-play-state:running;
 transition: all 0.5s linear 0s;
 animation: rotate   1s  linear  infinite   0.1s;
 }
-span{
-    position: absolute;
-    bottom:0;
-    right: 28%;
-    text-align: center;
-    color: #fff;
-}
+
 
 /*h3{
  animation-duration: 10s;

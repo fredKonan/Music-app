@@ -8,31 +8,81 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     
     <link rel="stylesheet" href="/css/normalize.css">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/style3.css">
 </head>
 <body>
-    
-
-
+    <div class="library">
+      <div class="title">
+        <h1>Library</h1>
+      </div>
+      <div class="library_menu">
+        <table>
+          <tr>
+            <td>
+             <i class="fa fa-icons fa-2x"><span>Playlist</span></i>
+            </td>
+          </tr>
+          <tr>
+            <td>
+             <i class="fa fa-stamp fa-2x"><span>Artists</span></i>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <i class="fa fa-compact-disc fa-2x"><span>Albums</span></i>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <i class="fa fa-download fa-2x"><span>Download</span></i>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <i class="fa fa-music fa-2x"><span>Songs</span></i>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="recently-added">
+        <h2>Recently Added</h2>
+        <div class="add">
+          <div class="add1">
+            <a href="#"></a>
+            <em>Celine Dion</em>
+            </div>
+          
+          <div class="add2">
+            <a href="/HTML/listen.html"></a>
+            <em>R.Kelly</em>
+          </div>
+          
+          <div class="add3">
+            <a href="#"></a>
+            <em>2Pac</em>
+          </div>
+        </div>
+      </div>
+    </div>
      <footer>
             <div class="footer-menu">
-                <div class="listen-now-buttons" onclick="listenNowButtons()">
+                <div class="listen-now-buttons nav" onclick="listenNowButtons()">
                   <a href="/HTML/listen.html">
                     <i class="fa fa-play-circle fa-1x">Listen Now</i>
                   </a>
                 </div>
     
-                <div class="browse-buttons " onclick="browseButtons()">
+                <div class="browse-buttons nav" onclick="browseButtons()">
                   <a href="/HTML/browser.html">
                     <i class="fa fa-bullseye">Browse</i>
                   </a>
                 </div>
-                <div class="library-buttons" onclick="libraryButtons()">
+                <div class="library-buttons nav" onclick="libraryButtons()">
                   <a href="/HTML/library.html">
                     <i class="fa fa-database fa-1x">Library</i>
                   </a>
                 </div>
-                <div class="search-bar" onclick="searchBar()">
+                <div class="search-bar nav" onclick="searchBar()">
                   <a href="/HTML/search.html">
                     <i class="fa fa-search fa-1x">Search</i>
                   </a>
