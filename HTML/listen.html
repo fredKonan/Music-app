@@ -11,62 +11,63 @@
 
    <!-- Load style sheet -->
    <link rel="stylesheet" href="/css/normalize.css">
-   <link rel="stylesheet" href="/css/style.css">
+   <link rel="stylesheet" href="/css/style2.css">
 </head>
 
 <body>
-  <div class="player">
+  <div class="music-app">
+    <div class="player">
       <div class="details">
-          <div class="now-playing">PLAYING x OF y</div>
-          <div class="now-playing"></div>
-          <div class="track-name">Track Name</div>
-          <div class="track-artist">Track Artist</div>
+        <div class="now-playing">PLAYING x OF y</div>
+        <div class="track-art"></div>
+        <div class="track-name">Track Name</div>
+        <div class="track-artist">Track Artist</div>
       </div>
       <div class="buttons">
-          <div class="prev-track" onclick="prevTrack()"><i class="fa fa-step-backward fa-2x"></i></div>
-          <div class="playpause-track" onclick="playpauseTrack()"><i class="fa fa-play-circle fa-5x"></i></div>
-          <div class="next-track" onclick="nextTrack()"><i class="fa fa-step-forward fa-2x"></i></div>
+        <div class="prev-track" onclick="prevTrack()"><i class="fa fa-step-backward fa-2x"></i></div>
+        <div class="playpause-track" onclick="playpauseTrack()"><i class="fa fa-play-circle fa-5x"></i></div>
+        <div class="next-track" onclick="nextTrack()"><i class="fa fa-step-forward fa-2x"></i></div>
       </div>
       <div class="slider_container">
-          <div class="current-time">00:00</div>
-          <input type="range" min="1" max="100" value="0" class="seek_slider" onchange="seekTo()">
-          <div class="total-duration">00:00</div>
+        <div class="current-time">00:00</div>
+        <input type="range" min="1" max="100" value="0" class="seek_slider" onchange="seekTo()">
+        <div class="total-duration">00:00</div>
       </div>
       <div class="slider_container">
-          <i class="fa fa-volume-down"></i>
-          <input type="range" min="1" max="99" class="volume_slider" onchange="setVolume()">
-          <i class="fa fa-volume-up"></i>
+        <i class="fa fa-volume-down"></i>
+        <input type="range" min="1" max="100" value="99" class="volume_slider" onchange="setVolume()">
+        <i class="fa fa-volume-up"></i>
       </div>
-
+    </div>
       <footer>
-            <div class="footer-menu footer-menu-listen" >
-                <div class="listen-now-buttons nav" onclick="listenNowButtons()">
-                  <a href="/HTML/listen.html">
-                    <i class="fa fa-play-circle fa-1x">Listen Now</i>
-                  </a>
-                </div>
+              <div class="footer-menu footer-menu-listen" >
+                  <div class="listen-now-buttons nav" onclick="listenNowButtons()">
+                    <a href="/HTML/listen.html">
+                      <i class="fa fa-play-circle fa-1x fa-listen">Listen Now</i>
+                    </a>
+                  </div>
     
-                <div class="browse-buttons nav " onclick="browseButtons()">
-                  <a href="/HTML/browser.html">
-                    <i class="fa fa-bullseye">Browse</i>
-                  </a>
-                </div>
-                <div class="library-buttons nav" onclick="libraryButtons()">
-                  <a href="/HTML/library.html">
-                    <i class="fa fa-database fa-1x">Library</i>
-                  </a>
-                </div>
-                <div class="search-bar nav" onclick="searchBar()">
-                  <a href="/HTML/search.html">
-                    <i class="fa fa-search fa-1x">Search</i>
-                  </a>
-                </div>
-           </div>
-            </div>
-      </footer>
-       
+                  <div class="browse-buttons nav " onclick="browseButtons()">
+                    <a href="/HTML/browser.html">
+                      <i class="fa fa-bullseye">Browse</i>
+                    </a>
+                  </div>
+                  <div class="library-buttons nav" onclick="libraryButtons()">
+                    <a href="/HTML/library.html">
+                      <i class="fa fa-database fa-1x">Library</i>
+                    </a>
+                  </div>
+                  <div class="search-bar nav" onclick="searchBar()">
+                    <a href="/HTML/search.html">
+                      <i class="fa fa-search fa-1x">Search</i>
+                    </a>
+                  </div>
+             </div>
+        </footer>
+    
+  </div>
 
     <!-- Load javascript file -->
-    <link rel="stylesheet" href="/main.js">
+    <script src="/main.js"></script>
 </body>
 </html>
